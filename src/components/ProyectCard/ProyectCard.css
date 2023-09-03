@@ -1,0 +1,67 @@
+.proyectCard{
+    width: 100%;
+    height: 30vh;
+    transition: all .3s;
+
+    position: relative;   
+}
+
+.proyectCard:hover .infoBlock
+{
+    top: 0;
+    opacity: 1;
+}
+
+
+
+
+.proyectImgContainer{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.infoBlock{
+    position: absolute;
+    top: 100%;
+    opacity:0;
+    transition: all .5s;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    padding: 2em 2em;
+}
+
+.projectTitle{
+    font-family: var(--font-sec-title);
+    font-size: 3em;
+    color: var(--color-2);
+
+    padding-bottom: .75em;
+}
+
+.projectDescription{
+    font-family: var(--font-text);
+    font-size: 1.5em;
+    color: var(--font-text);
+
+    padding-bottom: .75em;
+}
+
+.badges{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+
+.badge{
+    padding: .3em .6em;
+    font-family: var(--font-text);
+    background-color: var(--color-white);
+    color: var(--color-bg);
+}

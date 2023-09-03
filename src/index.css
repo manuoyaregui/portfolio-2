@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+:root{
+    --font-title: 'Bevan', serif;
+    --font-sec-title: 'EB Garamond', serif;
+    --font-text: 'Roboto Condensed', sans-serif;;
+
+    --color-bg : #232324;
+    --color-white : #fffadf;
+    --color-white-secondary: #918E82;
+    --color-2 : #d91f12;
+
+    --shadow-white: .1em .1em 0px 0px var(--color-white);
+    --shadow-red: .2em .2em 0px 0px var(--color-2);
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
